@@ -469,7 +469,7 @@ a:hover {
 
 
   #skillsection , #aboutsection , #portfoliosection , #previousexperience, #contact{
-    padding-top: 70px;
+    padding-top: 95%;
     margin-bottom: 0%;
     padding-bottom: 20%;
     height: auto;
@@ -486,7 +486,7 @@ a:hover {
 }
 
  #about{
-  margin-top: 70%;
+  margin-top: 5%;
 }
   .fact{
     display: none;
