@@ -57,11 +57,15 @@ a:hover {
     color:rgba(215, 106, 28, 0.85) ;
 }
 
- .navitem {
+ .navitem  {
     list-style: none;
     display: inline-block;
     padding: 0 20px;
     margin-top: 0px;
+}
+
+.nav-item {
+display: none;
 }
 
 
@@ -88,7 +92,7 @@ a:hover {
 }
   #aboutmecontent{
     width: 100%;
-    text-align: justify;
+    text-align:left;
     margin:-5% auto;
     display: flex;
     flex-direction: row;
@@ -104,8 +108,8 @@ a:hover {
 
   #aboutimg {
     border-radius: 50%;
-    height: 325px;
-    width: 375px;
+    height: 300px;
+    width: 300px;
     margin: auto 2%;
     border: whitesmoke 4px solid;
     padding: 10px;
@@ -224,7 +228,7 @@ a:hover {
 
 .card-front{
     display: flex;
-    text-align: justify;
+    text-align: left;
     border-radius: 20px;
     
 }
@@ -256,8 +260,8 @@ a:hover {
 }
 .card-back {
 	transform: rotateX(180deg);
-    justify-content: center;
-    text-align: justify;
+    justify-content: left;
+    text-align: left;
     border-radius: 20px;
     background-color: rgb(220, 216, 216);
     color: black;
@@ -457,19 +461,39 @@ a:hover {
 @media only screen and (max-width: 599px) {
 
   /* nav bar */
- #nav{
-  flex-direction:column;
-  font-size: 10px;
-  }
+
+ #nav-bar {
+    display: none;
+   } 
+   
+.nav-item {
+    display: flex;
+    list-style: none;
+    font-size: 12px;
+    margin-left: 25%;
+}
+
 
 #navtext{
-  margin: 10px;
-  }
-  
+font-size: 12px;
+}
+
+
+.dropdown-menu{
+  background-color: whitesmoke;
+}
+
+.dropdown-item{
+  font-size: 12px;
+ }
+
+ .dropdown-item:hover{
+  background-color: rgba(215, 106, 28, 0.85)
+ }
 
 
   #skillsection , #aboutsection , #portfoliosection , #previousexperience, #contact{
-    padding-top: 95%;
+    padding-top: 20%;
     margin-bottom: 0%;
     padding-bottom: 20%;
     height: auto;
@@ -486,7 +510,7 @@ a:hover {
 }
 
  #about{
-  margin-top: 5%;
+  margin-top: 15%;
 }
   .fact{
     display: none;
@@ -506,10 +530,11 @@ a:hover {
     }
     
     #aboutimg {
-    height:100px;
-    width: 100px;
+    height:125px;
+    width: 125px;
     margin: auto 5%;
-    padding: 2px;
+    padding: 5px;
+    border: solid whitesmoke 2px;
     float: left;   
     }
     
@@ -728,22 +753,42 @@ margin-top: -12.5%;
   font-size: 16px;
 }
 /* nav bar */
- #nav{
-    text-align: center;
-    flex-direction: column;
-    display: flex;
-    padding: 5px 20px;
-    font-size: 10px;
-    }
 
-#navtext{
-    margin: 5px auto;
-    }
     
+#nav-bar {
+ display: none;
+} 
+
+.nav-item {
+     display: flex;
+      list-style: none;
+      font-size: 14px;
+      margin-left: 25%;
+ }
+
+ #navtext{
+  font-size: 14px;
+  margin-left: 0px;
+ }
+
+
+.dropdown-menu{
+  background-color: whitesmoke;
+}
+
+.dropdown-item{
+  font-size: 14px;
+ }
+
+ .dropdown-item:hover{
+  background-color: rgba(215, 106, 28, 0.85)
+ }
+
+
 /* about me  */
 
 #about{
-  margin-top: 30%;
+  margin-top: 15%;
 }
 
 #aboutmecontent{
@@ -755,10 +800,11 @@ margin-top: -12.5%;
   }
 
  #aboutimg {
-    height:150px;
-    width: 150px;
+    height:125px;
+    width: 125px;
     margin: auto 5%;
-    padding: 10px;
+    padding: 5px;
+    border: solid whitesmoke 2px;
     float: left;   
 }
 
@@ -930,6 +976,9 @@ font-size: 13px;
 margin: 5px auto;
 }
 
+.nav-item {
+  display: none;
+  }
 /* about me  */
 
 #about{
@@ -1101,6 +1150,10 @@ height: 100px;
   padding: 5px 20px;
   font-size: 16px;
   }
+
+  .nav-item {
+    display: none;
+    }
   
   #navtext{
   margin: 5px auto;
@@ -1118,7 +1171,7 @@ height: 100px;
   #aboutimg {
 
     height: 275px;
-    width: 325px;
+    width: 275px;
 
   }
 

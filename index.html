@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,6 +12,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <script src="https://kit.fontawesome.com/0b5f86937c.js" crossorigin="anonymous"></script>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;500&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 <link rel="stylesheet" href="styles.css">
 
     <title>Helene van Besouw </title>
@@ -23,12 +24,32 @@
            <ul id="nav-bar"> 
            <a href="#aboutsection"><li class="navitem">About Me</li></a>
             <a href="#skillsection"><li class="navitem" >Skills</li></a>
-           <a href="#portfoliosection"><li class="navitem">Portfolio</li></a> 
+           <a href="#portfoliosection"><li class="navitem">Projects</li></a> 
            <a href="#previousexperience"><li class="navitem">Previous Experience</li></a> 
             <a href="#contact"><li class="navitem">Contact</li></a>
            </ul> 
+        <!-- mobile menu -->
+           <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Menu
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#aboutsection">About Me</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#skillsection">Skills</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#portfoliosection">projects</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#previousexperience">Previous Experience</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#contact">Contact</a></li>
+            </ul>
+          </li>
         </nav>
+     
     </header>
+
+ 
 
 <Section id="aboutsection">
 
@@ -40,9 +61,9 @@
 
     <div id="aboutmetext">
     <p>
-        Hi, I'm Helene a Junior Web Developer based in London! <br><br>
+        Hi, I'm Helene, a Junior Web Developer based in London. <br><br>
         
-        I'm client-focused with a passion for problem-solving, which led me to a fulfilling career in global mobility, during which i was constantly trying to find ways to enhance the customer's experiences during one of the most stressful times of a person's life (moving country)! Through advancement in the industry, technology became part of the solution. My interest in web development arose through engagement with our software development team; it appeared to match my passion for delivering a product with my desire to create and challenge myself.  I wanted to know more! This led me to recently complete a 12-week immersive bootcamp with General Assembly, which has provided me with the fundamentals for front-end and back-end web development.<br><br>
+        I'm client-focused with a passion for problem-solving, which led me to a fulfilling career in global mobility, during which I was constantly trying to find ways to enhance the client's experiences during one of the most stressful times of a person's life (moving country). Through advancement in the industry, technology became part of the solution. My interest in web development arose through engagement with our software development team; it appeared to match my passion for delivering a product with my desire to create and challenge myself.  I wanted to know more! This led me to recently complete a 12-week immersive bootcamp with General Assembly, which has provided me with the fundamentals for front-end and back-end web development.<br><br>
  
         I am now seeking my first role as a developer, where I can continue to learn from others to advance my technical skills and contribute positively to projects through previous experience gained.
 
@@ -118,7 +139,7 @@
 <section id="portfoliosection">
 <div class="sectioncontent">  
     <div id="porfoliocontent"> 
-    <h2 class="title" id="portfoliotitle">Portfolio</h2>
+    <h2 class="title" id="portfoliotitle">Projects</h2>
     <!-- head card  -->
        <div class="card" id="cardheader">
        <h4 class="date">8th August 2022 - 31st October 2022</h4>
@@ -127,7 +148,7 @@
             <img class="front-image" src="images/general-assembly-seeklogo.com.vectornator.png" >
             <div class="card-content">
             <h5 class="front-title">  Software Engineering Immersive Course (Remote)</h5>
-            <p> A 12-week immersive course that provided me with the fundamentals for both front-end and back-end web development. The course was conducted remotely using Zoom and Slack and consisted of daily standups, online lessons, workshops, daily homework. During this period I worked on  four projects which i've detailed below.</p>
+            <p> A 12-week immersive course that provided me with the fundamentals for both front-end and back-end web development. The course was conducted remotely using Zoom and Slack and consisted of daily standups, online lessons, workshops, daily homework. During this period I worked on four projects which i've detailed below.</p>
            </div>
            
        </div>
@@ -168,12 +189,12 @@
                <div class="card-content">
                    <h6>Group Project - 7 Days </h6>
                <p>
-                  "WineByMe" is a MERN full stack application for wine lovers to discover new wines. Browse collections and sign up to have the option of creating one or many "wineNights" where you can store a list of your favourites, ready to purchase for those specials occcasions!<br><br>
+                  "WineByMe" is a MERN full stack application for wine lovers to discover new wines. Browse collections and sign up to have the option of creating one or many "wineNights" where you can store a list of your favourites, ready to purchase for those special occcasions.<br><br>
                   
                   We worked with the spooncular API to access the wine data. 
                </p>
                <ul class="deployment-info">
-                  <a href=""><li class="deployment-list">
+                  <a href="https://github.com/HelenevB/SEI-project04-wineApp-Frontend"><li class="deployment-list">
                    <i class="devicon-github-original-wordmark back-card-icons"></i> <span class="text">View on GitHub </span>
                </li></a> 
                   <a href="https://wineappsei66.herokuapp.com/" target="_blank"><li class="deployment-list">
@@ -213,7 +234,7 @@
                <div class="card-content">
                    <h6>Group Project - 7 Days </h6>
                <p>
-                Inspired by Pinterest, "Forage" is an image-forward 'mood board' app, where users can create boards and populate them images; These images  can either be 'foraged' from other users' images that have been uploaded to the site , or they can be images that the user uploaded directly to the board.<br><br>
+                Inspired by Pinterest, "Forage" is an image-forward 'mood board' app, where users can create boards and populate them with images. These images  can either be 'foraged' from other users' images that have been uploaded to the site, or they can be images that the user uploaded directly to the board.<br><br>
 
                 During this project I was responsible for the CRUD functionalities for our Board model.
                </p>
@@ -233,7 +254,7 @@
        <div class="fact">
         <div class="fact-text">
            <h4>Did you know .. </h4>
-           <p>Woman use Pinterest more then men. <br>As of the beginning of 2022 statista.com reported that 76.7% of Pinterest users were female .</p>
+           <p>Women use Pinterest more then men. <br>As of the beginning of 2022 statista.com reported that 76.7% of Pinterest users were female.</p>
          </div>
        </div>
     </div>
@@ -269,9 +290,9 @@
                <div class="card-content">
                    <h6>Pair Project - 7 Days </h6>
                <p>
-                The Music Events App is a site that allows Artists to create and promote their gigs . Users can filter through these events, bookmarking to their profile the ones they wish to attend.<br><br>
+                The Music Events App is a site that allows Artists to create and promote their gigs. Users can filter through these events, bookmarking to their profile the ones they wish to attend.<br><br>
 
-                During this project i took ownership of the features associated with the Artist and their Event Listing, alongside registeration to the site  and changing password.
+                During this project I took ownership of the features associated with the Artist and their event listing, alongside registeration to the site  and changing password.
 
                </p>
                <ul class="deployment-info">
@@ -311,7 +332,7 @@
                <div class="card-content">
                    <h6>Solo Project - 7 Days </h6>
                <p>
-                 Project One was my first ever attempt at building and deploying an application! My task, to build a game using HTML5, JavaScript & CSS. Considering the unknown , my aim was to use this project to consolidate my understanding of JavaScript; working on a version of Tic-Tac-Toe was the perfect opportunity to do this!
+                 Project One was my first ever attempt at building and deploying an application! My task, to build a game using HTML5, JavaScript & CSS. Considering the unknown, my aim was to use this project to consolidate my understanding of JavaScript; working on a version of Tic-Tac-Toe was the perfect opportunity to do this.
                </p>
                <ul class="deployment-info">
                   <a href="https://github.com/HelenevB/SEI-Project01-Tic-Tac-Toe" target="_blank"><li class="deployment-list">
@@ -409,7 +430,7 @@
         <div id="contactcontent">
             <h2 class="title" id="contacttitle">Get in touch</h2>
         <div id="contact-text">
-       <p> I am open to opportunities. Please do reach out if you have any questions, advice or feedback,<br>i'd love to hear from you.</p> 
+       <p> I am open to opportunities. Please do reach out if you have any questions, advice or feedback,<br>I'd love to hear from you.</p> 
         </div>
             <div id="contact-icons">
                 <div class="onecontact-icon">
@@ -439,6 +460,8 @@
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 <script src="main.js"></script>
 
 </body>
