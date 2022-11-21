@@ -465,6 +465,7 @@ display: none;
  #nav-bar {
     display: none;
    } 
+
    
 .nav-item {
     display: flex;
@@ -474,6 +475,8 @@ display: none;
 }
 
 
+
+
 #navtext{
 font-size: 12px;
 }
@@ -481,6 +484,7 @@ font-size: 12px;
 
 .dropdown-menu{
   background-color: whitesmoke;
+
 }
 
 .dropdown-item{
@@ -662,11 +666,15 @@ font-size: 12px;
 }
 
 #dwellworksimage {
+ 
+  margin: auto;
   margin-bottom: 50px;
-  padding: 10px;
-  margin-left: 20%;
-  width: 100px;
-  height: 100px;
+ }
+
+ #dwimg {
+  margin: auto 33%;
+  padding: 2px;
+
  }
   
 
@@ -902,12 +910,16 @@ margin-top: -12.5%;
 }
 
 #dwellworksimage {
-    margin-bottom: 100px;
-    margin-left: 30%;
-    width: 100px;
-    height: 100px;
-   }
-    
+ 
+  margin: auto;
+  margin-bottom: 50px;
+ }
+
+ #dwimg {
+  margin: auto 36%;
+  padding: 2px;
+
+ }
 
    #dwellworksdate{
     text-align: center;
@@ -994,10 +1006,11 @@ font-size: 12px;
 }
 
 #aboutimg {
+border: solid whitesmoke 2px;
 height:150px;
 width: 150px;
 margin: auto 5%;
-padding: 10px;
+padding: 2px;
 float: left;   
 }
 
@@ -1093,11 +1106,16 @@ display: block;
 }
 
 #dwellworksimage {
-margin-bottom: 100px;
-margin-left: 30%;
-width: 100px;
-height: 100px;
-}
+ 
+  margin: auto;
+  margin-bottom: 50px;
+ }
+
+ #dwimg {
+  margin: auto 40%;
+  padding: 2px;
+
+ }
 
 #dwellworksdate{
   text-align: center;
